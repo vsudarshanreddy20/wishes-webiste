@@ -27,11 +27,12 @@ h2{font-size:clamp(32px,6vw,64px);color:#ffd8e9;margin:20px 0}
 .photo-card:hover{transform:translateY(-7px) scale(1.02)}
 .photo-card img{width:100%;height:auto;max-height:600px;object-fit:contain;border-radius:15px;display:block}
 .photo-card div{padding:11px;color:#ffd1e5}
-.video-card{max-width:900px;margin:28px auto;padding:10px;background:#ffffff12;border-radius:22px;box-shadow:0 15px 45px #0008}
-video{display:block;width:100%;max-height:650px;border-radius:15px;background:#000}
+.video-card{width:min(1200px,96vw);margin:32px auto;padding:12px;background:#ffffff12;border-radius:22px;box-shadow:0 15px 45px #0008;overflow:hidden}
+video{display:block;width:100%;max-height:80vh;border-radius:15px;background:#000}
+.drive-video{display:block;width:100%;height:clamp(560px,78vh,850px);border:0;border-radius:15px;background:#000}
 .empty{padding:50px;color:#ffd1e5}
 .letter{max-width:820px;margin:28px auto;padding:32px 24px;border:1px solid #ffb4d533;border-radius:25px;background:#ff6bb315;line-height:2;font-size:19px;box-shadow:0 15px 45px #0008}
-@media(max-width:600px){nav a{font-size:12px;padding:7px 9px}section{padding:95px 12px 65px}.photo-card img{height:auto;max-height:none;object-fit:contain}.letter{padding:24px 16px;font-size:17px}}
+@media(max-width:600px){nav a{font-size:12px;padding:7px 9px}section{padding:95px 8px 65px}.photo-card img{height:auto;max-height:none;object-fit:contain}.letter{padding:24px 16px;font-size:17px}.video-card{width:100%;margin:22px auto;padding:6px;border-radius:16px}.drive-video{height:clamp(480px,72vh,700px);border-radius:12px}}
 </style>
 </head>
 <body>
